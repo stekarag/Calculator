@@ -92,8 +92,7 @@ class Calculator:
                         self.printvars()
 
                 self.entry_val.set(self.total)
-                self.printvars()
-
+                
         def update(self, method):
                 if method == "reset":
                         self.total = 0
